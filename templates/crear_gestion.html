@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CrearGestion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/crear_gestion/assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="static/crear_gestion/assets/css/styles.css">
+</head>
+
+<body>
+    <section class="contact-clean">
+        <form method="post" action="/crear_gestion">
+            <h2 class="text-center">Formulario de gestión</h2>
+            <div class="mb-3"><input class="form-control" type="text" name="nombre_gestion" placeholder="Nombre de gestión"></div>
+            <div>
+                <h6>¿Aplica visita técnica?</h6>
+                <div>
+                    <fieldset>
+                        <div class="custom-control custom-radio"><input type="radio" id="customRadio1" class="custom-control-input" name="customRadio" value="SI"><label class="form-label custom-control-label" for="customRadio1" style="margin-left: 4px;padding-bottom: 0px;">Sí</label></div>
+                        <div class="custom-control custom-radio"><input type="radio" id="customRadio2" class="custom-control-input" name="customRadio" value="NO"><label class="form-label custom-control-label" for="customRadio2" style="margin-left: 4px;margin-bottom: 8px;">No</label></div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="mb-3" style="width: 400px;height: 67px;margin: -4px;padding: 5px;"><button class="btn btn-primary" type="submit" style="padding: 16px 32px;margin: 9px 150px 0px;height: 45px;width: 102.344px;background: #00bff3;">Crear</button></div>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
